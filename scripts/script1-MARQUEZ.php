@@ -1,7 +1,7 @@
 <?php
 /**
  * @author FRANCISCO JAVIER MARQUEZ RUIZ
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 /**
@@ -10,7 +10,7 @@
  * @param	integer|float	$num1 	Primer número para la suma
  * @param	integer|float	$num2 	Segundo número para la suma, opcional, si no aparece toma valor 0
  * @return	integer|float|string	Devuelve el resultado de la suma o un mensaje de error
- * @version 	1.0.0
+ * @version 	1.1.0
  * @since	15/15/2023
  */
 function sumar($num1, $num2=0){
@@ -26,7 +26,7 @@ function sumar($num1, $num2=0){
  * @param	integer|float	$num1 	Primer número para la resta
  * @param	integer|float	$num2 	Segundo número para la resta, opcional, si no aparece toma valor 0
  * @return	integer|float|string	Devuelve el resultado de la resta o un mensaje de error
- * @version 	1.0.0
+ * @version 	1.1.0
  * @since	15/15/2023
  */
 function restar($num1, $num2=0){
